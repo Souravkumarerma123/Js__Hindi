@@ -1,4 +1,4 @@
-let score = "Sourav"
+let score = "33"
 
 // console.log(typeof score);
 
@@ -10,7 +10,7 @@ let score = "Sourav"
 //"33abc" => NaN
 //true => 1;false => 0
 
-let isLoggedIn = "Sourav"
+let isLoggedIn = true
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
  let someNumber = 33
