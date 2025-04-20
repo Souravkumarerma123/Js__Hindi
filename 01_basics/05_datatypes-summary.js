@@ -44,7 +44,27 @@ const myFunction = function(){
     console.log("Hello");  
 }
 
-console.log(typeof myFunction);
-console.log(typeof planet);
-console.log(typeof Symbol);
+// console.log(typeof myFunction);
+// console.log(typeof planet);
+// console.log(typeof Symbol);
+
+// stack(Primitive)  // Heap(non primitive)
+
+let myyoutubeName = "Doremoon123"
+let anothername = myyoutubeName;
+anothername = "Souravkumarverma"
+console.log(myyoutubeName);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo =  userOne
+
+userTwo.email = "Sourav@google.com"
+console.log(userOne);
+console.log(userTwo);
 
