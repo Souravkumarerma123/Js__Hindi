@@ -23,7 +23,7 @@ const bigNumber = 4398568986909n
 
 
 
-// promitive
+// primitive
 
 //7 types : String,Number,Boolean,null,undefined,symbol,bigInt
 
