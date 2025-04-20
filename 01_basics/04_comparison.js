@@ -14,7 +14,7 @@ avoid this type of conversion
 
 // console.log(undefined == 0); //false
 // console.log(undefined < 0); //false
-// console.log(undefined > 0); //false
+// console.log(undefined > 0); //true
 
 
 // === srtrict check
