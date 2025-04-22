@@ -16,6 +16,7 @@ console.log(typeof myDate);
 
  let myTimeStamp = Date.now()
 
+console.log(typeof myTimeStamp);
 
 // console.log(myTimeStamp);
 // console.log(myCreaatedDate.getTime());
