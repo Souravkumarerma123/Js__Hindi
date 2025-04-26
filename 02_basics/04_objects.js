@@ -33,3 +33,52 @@ const obj4 = {5: "a", 6: "b"}
 const obj3 = {...obj1, ...obj2, ...obj4}
 console.log(obj3);
 
+const users = [
+    {
+        id: 1,
+        email: "h@gmail.com"
+    },
+    {
+        id: 1,
+        email: "Souravkumarverma56@gmail.com"
+    },
+    {
+        id: 1,
+        email: "h@gmail.com"
+    },
+]
+
+// console.log(users[0].email);
+// console.log(users[1].id);
+
+
+// console.log(Object.keys(instaUser));
+// console.log(Object.values(instaUser));
+// console.log(Object.entries(instaUser));
+
+
+// Destructuring of objects
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+
+// console.log(course.courseInstructor); // not a efficient way
+// console.log(course.price);
+
+const {coursename: name_of_the_course} = course
+const {price: kitna_paisa} = course
+
+console.log(name_of_the_course);
+console.log(kitna_paisa);
+
+[
+    {},
+    {},
+    {},
+    {},
+    {},
+]
