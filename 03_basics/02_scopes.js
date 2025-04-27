@@ -51,8 +51,9 @@ function addOne(num){
     return num + 1;
 }
 console.log(addOne(20));
-
-console.log(addTwo(45));
+console.log(addTwo(45)); //here comes the concept of hosting which tells that if you define a function as a variable,
+                          // then it only prints the console after the function  is defined 
+                            // but if you prints the function before it throws an array
 const addTwo = function(num){
     return num + 2;
 }
