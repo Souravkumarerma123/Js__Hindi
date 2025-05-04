@@ -1,4 +1,4 @@
-const coding = ["java", "javascript", "c", "cpp", "Ruby"]
+ const coding = ["java", "javascript", "c", "cpp", "Ruby"]
 
 // myLanguage = coding.forEach((item) => {
 //     // console.log(item);
