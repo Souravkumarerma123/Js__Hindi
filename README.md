@@ -1,7 +1,5 @@
 # Js__Hindi
-A repo for javascript
-Great! Here’s an updated version with more specific context:
-
+A new repo for javascript
 
 This repository documents my journey as I learn JavaScript, focusing on both foundational concepts and practical projects. I’m currently exploring:
 	•	Variables, data types, and operators
