@@ -4,5 +4,6 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false
-    }
+    },
+    "livePreview.defaultPreviewPath": "/06_Dom/index.html"
 }
