@@ -100,5 +100,5 @@ setInterval(function(){
     minute: '2-digit',
     second: '2-digit',
   })
-},1000)
+},1)
 ```
