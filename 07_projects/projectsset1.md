@@ -88,3 +88,17 @@ form.addEventListener('submit',(e) => {
 })
 
 ```
+# project  3
+```javascript
+const clock = document.querySelector('#clock')
+
+
+setInterval(function(){
+  let date = new Date()
+  clock.innerHTML = date.toLocaleTimeString('en-US', {
+    hour : 'numeric',
+    minute: '2-digit',
+    second: '2-digit',
+  })
+},1000)
+```
